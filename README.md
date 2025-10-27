@@ -112,17 +112,39 @@ Each notebook includes:
 
 ---
 
-## 📈 Trace plot results
+## 📈 Trace Plot Results
 
-Trace plot of parameter posteriors across different skewness levels (λ):
+Trace plots of parameter posteriors across different skewness levels (λ):
 
-| λ       | Posterior Traceplot |
-|---------|----------------------|
-| −0.5    | ![](Figures/tp0.5_resized.png) |
-| −1.0    | ![](Figures/tp1_resized.png)   |
-| −1.5    | ![](Figures/tp1.5_resized.png) |
-| −2.0    | ![](Figures/tp2_resized.png)   |
-| −5.0    | ![](Figures/tp5_resized.png)   |
+<table>
+  <tr>
+    <td align="center">
+      <img src="Figures/tp0.5_resized.png" width="250"/><br>
+      λ = −0.5
+    </td>
+    <td align="center">
+      <img src="Figures/tp1_resized.png" width="250"/><br>
+      λ = −1.0
+    </td>
+    <td align="center">
+      <img src="Figures/tp1.5_resized.png" width="250"/><br>
+      λ = −1.5
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Figures/tp2_resized.png" width="250"/><br>
+      λ = −2.0
+    </td>
+    <td align="center">
+      <img src="Figures/tp5_resized.png" width="250"/><br>
+      λ = −5.0
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+
 
 These plots demonstrate how skewness affects the TE posterior. As λ becomes more negative, the posterior spreads wider—highlighting increased uncertainty and the importance of using a skew-normal likelihood.
 
